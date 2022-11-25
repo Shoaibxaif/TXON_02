@@ -4,81 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utils.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
-
-</head> 
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 <body>
-    
- 
+   
         
+        <div class="header">       
         <h1 class="text-center font-100px">Calculator</h1>
         
-    <div class="container bg-black mx-auto flex flex-col items-center">
-
-        
-        <div class="row ">
-
-            <input type="text" class="input">
-        </div>
-        
-        <div class="row"> 
-            
-            <button class="button btn bg-grey">C</button>
-            <button class="button bg-grey">%</button>
-            <button class="button bg-org">/</button>
-            
-        </div>
-        <div class="row"> 
-            
-            <button class="button">7</button>
-            <button class="button">8</button>
-            <button class="button">9</button>
-            <button class="button bg-org">*</button>
-
-        </div>
-
-        
-        <div class="row"> 
-
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
-            <button class="button bg-org">-</button>
-            
-        </div>
-        
-        
-        <div class="row"> 
-            
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button bg-org">+</button>
-            
-        </div>
-        
-        
-        <div class="row"> 
-            
-            <button class="button btn">0</button>
-            <button class="button dot">.</button>
-            <button class="button bg-org">=</button>
-            
-            
-        </div>
-        
-        
-  
-
-
-</div>
-    <script src="script.js"></script>
+        <div class="container bg-black mx-auto flex flex-col items-center">
     
-</body>
-</html>
+            
+            <div class="row ">
+    
+                <input type="text" class="input">
+            </div>
+            
+            <div class="row"> 
+                
+                <button class="button btn bg-grey">C</button>
+                <button class="button bg-grey">%</button>
+                <button class="button bg-org">/</button>
+                
+            </div>
+            <div class="row"> 
+                
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button bg-org">*</button>
+    
+            </div>
+    
+            
+            <div class="row"> 
+    
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button bg-org">-</button>
+                
+            </div>
+            
+            
+            <div class="row"> 
+                
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button bg-org">+</button>
+                
+            </div>
+            
+            
+            <div class="row"> 
+                
+                <button class="button btn">0</button>
+                <button class="button dot">.</button>
+                <button class="button bg-org">=</button>
+                
+                
+            </div>
+            
+            
+      
+    
+    
+    </div>
+       
+            <!--Waves Container-->
+            <div>
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                    </g>
+                </svg>
+            </div>
+            <!--Waves end-->
+            
+        </div>
+       
+        <script src="script.js"></script>
+    </body>
+    </html>
